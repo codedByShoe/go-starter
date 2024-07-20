@@ -1,0 +1,16 @@
+server:
+  env: "development"
+  url: "http://localhost"
+  address: "8080"
+
+database:
+  connection: "sqlite"
+  host: "localhost"
+  port: 5432
+  user: "myuser"
+  password: "mypassword"
+  name: "app"
+  sslmode: "disable"
+
+session:
+  cookie: "secret"

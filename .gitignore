@@ -10,13 +10,18 @@
 
 # Test binary, built with `go test -c`
 *.test
-
+#sqlite databases
+*.sqlite
+*.db
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
-
+tmp
 # Go workspace file
 go.work
 go.work.sum
+
+#node
+node_modules
